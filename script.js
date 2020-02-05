@@ -1,9 +1,9 @@
-let answers = ['Parijs', '8', 'Ijsselmeer']
+let antwoorden = ['Parijs', '8', 'Ijsselmeer']
 
 function controleer() {
     let goed = 0;
     let input1 = document.getElementById("vraag1").value;
-    if (input1 == answers[0]) {
+    if (input1 == antwoorden[0]) {
         document.getElementById("vraag1").style.backgroundColor = "#42ff6b";
         goed += 1;
     } else {
@@ -11,7 +11,7 @@ function controleer() {
     }
 
     let input2 = document.getElementById("vraag2").value;
-    if (input2 == answers[1]) {
+    if (input2 == antwoorden[1]) {
         document.getElementById("vraag2").style.backgroundColor = "#42ff6b";
         goed += 1;
     } else {
@@ -19,7 +19,7 @@ function controleer() {
     }
 
     let input3 = document.getElementById("vraag3").value;
-    if (input3 == answers[2]) {
+    if (input3 == antwoorden[2]) {
         document.getElementById("vraag3").style.backgroundColor = "#42ff6b";
         goed += 1;
     } else {
